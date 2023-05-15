@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify Place Order is Display",
+        "description": "",
+        "id": "this-is-a-add-product-in-cartt;verify-place-order-is-display",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3823701199,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Demoblaze \u003c\"URL\"\u003e Application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 17
+                }
+              ],
+              "location": "WaterFallLogin.open_Demoblaze_Application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3800686200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click Samsung Galaxy",
+            "match": {
+              "location": "Homee.click_Samsung_Galaxy()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9089958800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click Add to Caarttt",
+            "match": {
+              "location": "Product.click_Add_to_Caarttt()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10027047600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Clickk Carttt Linkkk",
+            "match": {
+              "location": "Product.clickk_Carttt_Linkkk()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3059140199,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click Place Order",
+            "match": {
+              "location": "CarttStep.click_Place_Order()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3058300399,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify Place Order is Display Sucessfully",
+            "match": {
+              "location": "PlaceOrder.verify_Place_Order_is_Display_Sucessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Sultana"
+          }
+        ]
+      }
+    ],
+    "name": "This is a add product in Cartt",
+    "description": "",
+    "id": "this-is-a-add-product-in-cartt",
+    "keyword": "Feature",
+    "uri": "WaterFallCart.feature"
+  }
+]
